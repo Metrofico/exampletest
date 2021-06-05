@@ -84,15 +84,15 @@ body {
 #menu-expand {
     background: #332E32;
     position: fixed;
-    bottom: 0;
+    bottom: -19.3em;
     right: 5%;
     border-radius: 10px 10px 0 0;
     transition: 0.6s;
 }
 
-.hide-menu {
+.show-menu {
     transition: 0.6s;
-    transform: translateY(+100%);
+    transform: translateY(-100%);
 }
 
 .badgeNumber {
@@ -129,24 +129,25 @@ hr.solid {
     cursor: pointer;
 }
 
-.Number.low:hover {
-    background: #FF0000;
+.Number.low.selected-number, .Number.low:hover {
+    background: #FF0000 !important;
 }
 
-.Number.medium-low:hover {
-    background: #FFC100;
+
+.Number.medium-low.selected-number, .Number.medium-low:hover {
+    background: #FFC100 !important;
 }
 
-.Number.medium:hover {
-    background: #FFFF00;
+.Number.medium.selected-number, .Number.medium:hover {
+    background: #FFFF00 !important;
 }
 
-.Number.medium-high:hover {
-    background: #D6FF00;
+.Number.medium-high.selected-number, .Number.medium-high:hover {
+    background: #D6FF00 !important;
 }
 
-.Number.high:hover {
-    background: #63FF00;
+.Number.high.selected-number, .Number.high:hover {
+    background: #63FF00 !important;
 }
 
 .msg-rate {

@@ -17,23 +17,23 @@
     asdasd
     <div id="menu-expand">
         <div class="btn-interact-menu" onclick="hideRateMenu()">
-            <i id="iconExpandMenu" class="fas fa-chevron-down" style="color: white"></i>
+            <i id="iconExpandMenu" class="fas fa-chevron-up" style="color: white"></i>
         </div>
         <div class="menu-content">
             <div class="displayName">
                 ¿Qué tanto te gustó nuestra página web?
             </div>
-            <div class="badgeNumber">
-                <div class="Number low">1</div>
-                <div class="Number low">2</div>
-                <div class="Number medium-low">3</div>
-                <div class="Number medium-low">4</div>
-                <div class="Number medium">5</div>
-                <div class="Number medium">6</div>
-                <div class="Number medium-high">7</div>
-                <div class="Number medium-high">8</div>
-                <div class="Number high">9</div>
-                <div class="Number high">10</div>
+            <div id="rateBar" class="badgeNumber">
+                <div class="Number low" onclick="selectorRateNumber(this)">1</div>
+                <div class="Number low" onclick="selectorRateNumber(this)">2</div>
+                <div class="Number medium-low" onclick="selectorRateNumber(this)">3</div>
+                <div class="Number medium-low" onclick="selectorRateNumber(this)">4</div>
+                <div class="Number medium" onclick="selectorRateNumber(this)">5</div>
+                <div class="Number medium" onclick="selectorRateNumber(this)">6</div>
+                <div class="Number medium-high" onclick="selectorRateNumber(this)">7</div>
+                <div class="Number medium-high" onclick="selectorRateNumber(this)">8</div>
+                <div class="Number high" onclick="selectorRateNumber(this)">9</div>
+                <div class="Number high" onclick="selectorRateNumber(this)">10</div>
             </div>
             <div class="msg-rate">
                 <div>No me gusta</div>
